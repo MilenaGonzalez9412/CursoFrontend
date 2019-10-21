@@ -4,36 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Iniciar sesión</title>
+    <!-- Font -->
     <link
-    href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <style>
-  
-    body {
-      margin: 0;
-      background-color: #7a28cb;
-      font-family: "Yanone Kaffeesatz", sans-serif;
-    }
-    header {
-      width: 100%;
-      height: 90px;
-      background-color: #7a28cb;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .header__img {
-      width: 80px;
-      margin-top: 10px;
-      margin-left: 10px;
-    }
-  </style>
+
   <body>
     <header class="header">
-        <img class="header__img" src="../images/mercurio.png" alt="My image" />
-      </header>
+      <img class="header__img" src="../images/mercurio.png" alt="My image" />
+    </header>
+    <section class="login">
+      <section class="login__container">
+        <h2>Inicio sesión</h2>
+        <form class="login__container--form">
+          <input class="input" type="text" placeholder="Correo" />
+          <input class="input" type="text" placeholder="Contraseña" />
+          <button class="button">Iniciar sesión</button>
+          <div class="login__container--remember-me">
+            <label>
+              <input
+                type="checkbox"
+                name=""
+                id="cbox1"
+                value="checkbox"
+              />Recuérdame
+            </label>
+            <a href="/">Olvidé mi contraseña</a>
+          </div>
+        </form>
+        <section class="login__container--social-media">
+          <div>
+            <img
+              src="../icons/icons8-logo-de-google-24.png"
+              alt="Google"
+            />Inicia sesión con Google
+          </div>
+          <div>
+            <img src="../icons/icons8-twitter-26.png" alt="Twitter" />Inicia
+            sesión con Twitter
+          </div>
+        </section>
+        <p class="login__container--register">
+          No tienes ninguna cuenta? <a href="/">Regístrate</a>
+        </p>
+      </section>
+    </section>
+    <footer class="footer">
+      <a href="/">Términos de uso</a>
+      <a href="/">Declaración de privacidad</a>
+      <a href="/">Centro de ayuda</a>
+    </footer>
   </body>
 </html>
