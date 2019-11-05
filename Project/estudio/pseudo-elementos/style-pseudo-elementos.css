@@ -1,0 +1,10 @@
+p:first-child{
+    color: blueviolet;
+}
+p:last-child{
+    color:brown;
+}
+p::first-letter{
+    color:blue;
+    font-size: 20px;
+}

@@ -1,0 +1,17 @@
+/* Es buena práctica quitarle el margin a los navegadores */
+/* body{
+        margin:0;
+    } */
+.caja {
+  background-color: #8105d8;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  border: 2px solid #3b064d;
+  margin: 10px 20px 30px 40px;
+}
+.caja2 {
+  background-color: aqua;
+  width: 30px;
+  height: 30px;
+}
